@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .balance {
+            background-color: blueviolet;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+
+        }
+        .responsive{
+            display: flex;
+        }
+        @media (max-width:768px) {
+            .responsive{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .balance{
+                width: 45%;
+            }
+            .balance > img{
+                width: 70%;
+            }
+            
+        }
+        .responsive{
+            display:flex;
+        }
+        @media(max-width:412px) {
+            .responsive{
+                display:flex;
+                flex-direction:column;
+                gap:20px;
+            }
+            .balance {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+    </div>
+
+    <h1 style="text-align: center;">responsive section</h1>
+    <h2>courses</h2>
+    <div class="responsive">
+        <div class="balance">
+            <img src="https://w0.peakpx.com/wallpaper/607/199/HD-wallpaper-evening-pic-natura-thumbnail.jpg"
+                alt="nature image">
+            <h2>html</h2>
+            <p>Definition and Usage. The tag is used to embed an image in an HTML page. Images are not technically
+                inserted
+                into a web page; images are linked to web .</p>
+        </div>
+
+
+        <div class="balance">
+            <img src="https://w0.peakpx.com/wallpaper/607/199/HD-wallpaper-evening-pic-natura-thumbnail.jpg"
+                alt="nature image">
+            <h2>css</h2>
+            <p>Definition and Usage. The tag is used to embed an image in an HTML page. Images are not technically
+                inserted
+                into
+                a web page; images are linked to web .</p>
+
+        </div>
+
+        <div class="balance">
+            <img src="https://w0.peakpx.com/wallpaper/607/199/HD-wallpaper-evening-pic-natura-thumbnail.jpg"
+                alt="nature image">
+            <h2>java script</h2>
+            <p>Definition and Usage. The tag is used to embed an image in an HTML page. Images are not technically
+                inserted
+                into
+                a web page; images are linked to web .</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
